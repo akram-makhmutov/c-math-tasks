@@ -1,6 +1,11 @@
 ﻿#include <iostream>
 using namespace std;
 
+void method()
+{
+	cout<<"Hello, world!"<<endl;
+}
+
 int reck(int n)
 {
 	int fact = 1;
