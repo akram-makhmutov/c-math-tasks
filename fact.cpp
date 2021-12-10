@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-
 using namespace std;
 
 int reck(int n)
@@ -23,7 +22,7 @@ int reck(int n)
 int other_way(int n)
 {
 	int fact = 1;
-	int m = n;
+	int b = n;
 	int* mas = new int[n];
 
 	if (n == 0)
