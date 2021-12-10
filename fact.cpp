@@ -22,7 +22,7 @@ int reck(int n)
 int other_way(int n)
 {
 	int fact = 1;
-	int b = n;
+	int c = n;
 	int* mas = new int[n];
 
 	if (n == 0)
