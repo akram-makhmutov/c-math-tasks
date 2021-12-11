@@ -1,11 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
 
-void method()
-{
-	cout<<"Hello, world!"<<endl;
-}
-
 int reck(int n)
 {
 	int fact = 1;
@@ -27,7 +22,7 @@ int reck(int n)
 int other_way(int n)
 {
 	int fact = 1;
-	int c = n;
+	int m = n;
 	int* mas = new int[n];
 
 	if (n == 0)
@@ -38,7 +33,6 @@ int other_way(int n)
 
 	for (int i = 0; i < n; i++)
 	{
-
 		mas[i] = fact;
 		fact = mas[i] * m;
 		m = m - 1;
